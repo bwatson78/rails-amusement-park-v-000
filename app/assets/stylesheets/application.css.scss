@@ -23,3 +23,52 @@ body {
   padding-top: 70px;
   padding-bottom: 30px;
 }
+
+.center {
+  text-align: center;
+}
+
+.right-info {
+  margin: 5px;
+  float: left;
+  position: relative;
+  height: 325px;
+  width: 550px;
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 80px 60px 20px 60px;
+  border-radius: 7px;
+}
+
+a:visited {
+  color: #666;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+.info {
+  height: 290px;
+  text-align: left;
+}
+
+.pic, .info {
+  padding: 20px;
+  display: inline-block;
+  background-color: #EEEEEE;
+  border-radius: 7px;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.alert {
+  color: white;
+  background-color: red;
+}
